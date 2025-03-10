@@ -145,7 +145,7 @@ def main():
     print_section("Download audio or video from YouTube with ease.")
     
     # Hardcoded YouTube API key (replace with your own)
-    API_KEY = "AIzaSyCpQWL9UJzzJZ0Yfc0FClNdV6Vh9fHZHls"  # Replace with your YouTube Data API key
+    API_KEY = ""  # Replace with your YouTube Data API key
     if not API_KEY:
         print(colored("Error: No YouTube Data API key found.", 'red'))
         print(colored("Please add your API key to the 'API_KEY' variable in the script.", 'red'))
